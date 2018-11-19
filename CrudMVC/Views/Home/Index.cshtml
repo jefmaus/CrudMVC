@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@if (Session["usuario"] != null)
+{
+    
+    <h4><span class="material-icons">cloud</span>Bienvenido @Session["usuario"].ToString()</h4>
+}
+else
+{
+
+}

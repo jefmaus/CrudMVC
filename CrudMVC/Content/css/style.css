@@ -1,0 +1,11 @@
+﻿
+
+.center-div {
+    margin: 0 auto;
+}
+
+.login_div {
+    max-width: 320px;
+    border: 1px solid #CCC;
+    background-color: #FBFBFB;
+}
